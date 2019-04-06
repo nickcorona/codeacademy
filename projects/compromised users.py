@@ -16,7 +16,7 @@ with open('compromised_users', 'w') as compromised_user_file:
         compromised_user_csv.writerow(user)
 
 
-with open('boss_message.json', 'w') as boss_message:
+with open('projects/boss_message.json', 'w') as boss_message:
     boss_message_dict = {}
     boss_message_dict['recipient'] = 'The Boss'
     boss_message_dict['message'] = 'Mission Success'
