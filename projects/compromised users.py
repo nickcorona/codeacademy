@@ -23,7 +23,7 @@ with open('boss_message.json', 'w') as boss_message:
     json.dump(boss_message_dict, boss_message)
 
 with open('projects/new_passwords.csv', 'w') as new_passwords_obj:
-    slash_null_sig = """
+    slash_null_sig = r"""
      _  _     ___   __  ____             
 / )( \   / __) /  \(_  _)            
 ) \/ (  ( (_ \(  O ) )(              
@@ -42,4 +42,3 @@ with open('projects/new_passwords.csv', 'w') as new_passwords_obj:
 \_)__)\____/\____/\____/
     """
     new_passwords_obj.write(slash_null_sig)
-    
