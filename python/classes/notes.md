@@ -1,4 +1,4 @@
-# Python Class notes
+# Python Class
 
 ## Methods
 
@@ -23,3 +23,9 @@ for consistency.
 * Functions are also objects.
 * What is a data type?
 * How do classes create their own data types?
+
+## Inheritance
+
+* Base class is sometimes called a **parent class**.
+* Class inheriting from the parent class is called **child class**.
+* A child class can also be referred to as a subclass.
