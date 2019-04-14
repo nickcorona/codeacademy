@@ -1,4 +1,5 @@
 class Facade:
-  pass
+    pass
+
 
 facade_1 = Facade()

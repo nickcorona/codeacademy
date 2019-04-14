@@ -1,3 +1,2 @@
 class Grade:
-  minimum_passing = 65
-  
+    minimum_passing = 65

@@ -1,2 +1,2 @@
 class Facade:
-  pass
+    pass

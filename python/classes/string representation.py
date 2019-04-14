@@ -5,7 +5,7 @@ class Circle:
         self.radius = diameter / 2
 
     def __repr__(self):
-        return 'Circle with radius {radius}'.format(radius=self.radius)
+        return "Circle with radius {radius}".format(radius=self.radius)
 
     def area(self):
         return self.pi * self.radius ** 2

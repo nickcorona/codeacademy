@@ -3,5 +3,5 @@ class Store:
         self.store_name = store_name
 
 
-alternative_rocks = Store('Alternative Rocks')
+alternative_rocks = Store("Alternative Rocks")
 isabelles_ices = Store("Isabelles Ice's")
